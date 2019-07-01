@@ -1,3 +1,7 @@
+// The syntax to send and receive data from a channel are:
+// data := <- ch // Read from channel ch
+// ch <- data  // Write to channel ch
+
 package main
 
 import (
