@@ -31,3 +31,6 @@ func main() {
 
 }
 
+
+// It is important to pass the address of "wg".
+// If the address is not passed, then each Goroutine will have its own copy of the WaitGroup and main goroutine will not be notified when they finish executing.
